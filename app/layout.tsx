@@ -3,6 +3,8 @@ export const metadata = {
   description: "Local Next.js RSC lab",
 };
 
+import "./global.css";
+
 export default function RootLayout({ children }) {
   return (
     <html lang="ko">

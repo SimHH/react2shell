@@ -1,10 +1,12 @@
 # dependencies
 node_modules/
 
-
 # env
 .env
 
 # next build output
 .next/
 out/
+
+# uploads
+public/

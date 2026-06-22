@@ -19,3 +19,9 @@ Next.js App Router 환경에서 React2Shell 로컬 실습용 환경입니다.
 
 - Node.js: 로컬 개발 환경
 - Framework mode: Next.js App Router
+
+### 동적 디버깅
+
+1. npm run build
+2. node --inspect-brk=127.0.0.1:9229 ./node_modules/next/dist/bin/next start 서버 실행
+3. chrome://inspect 에서 동적 디버깅
